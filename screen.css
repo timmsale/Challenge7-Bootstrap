@@ -1,54 +1,118 @@
 /* Add screen styles below */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #353535;
-    color: #ffffff;
+    font-weight: normal;
 }
 
-#hero {
-    background-color: #B5B5B5;
-    color: #353535;
-    margin: 0px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 72px;
+
+.navbar-light .nav-link {
+    color: black;
 }
 
-#intro{
-    margin: 0px;
-    width: 1010px;
-    text-align: center;
-    word-wrap: normal;
-    position: relative;
-    top: 50px;
-    left: 250px;
-    font-size: 72px;
+.nav-item .nav-link.active {
+    background-color: #f8f9fa;
+  }
+  
+.navbar-nav{
+    justify-content: space-between;
 }
 
-.card{
-    display: flex;
-    margin: 0px;
+.navbar-nav li{
+    margin-right: 25px;
 }
 
-h2 {
-    font-size: 48px;
-    margin: 0px;
-    padding-top: 120px;
-    
+.navbar-nav li:first-child{
+    margin-left: 25px;
+}
+
+
+.nav-item{
+    font-weight: 600;
 }
 
 p{
-    width: 650px;
-    text-align: left;
-    word-wrap: normal;
-    margin: 0px;
-    padding-top: 35px;
-    font-size: 24px;
+    font-size: 14px;
 }
 
-img {
-    padding-right: 35px;
-    padding-left: 250px;
-    padding-top: 120px;
+.container{
+    margin-top: 25px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.left-side{
+    display: flex;
+    justify-content: first baseline;
+}
+
+.profilepics{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+.card-img-top{
+    height: 310px;
+    border-radius: 10px;
+}
+
+.card-text{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.interactions{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+}
+
+.interactions li{
+    align-items: center;
+}
+
+.interactions li:last-child{
+    margin-right: 0px;
+}
+
+.fa-heart{
+    color: #6c757d;
+}
+
+.fa-eye{
+    color: #6c757d;
+}
+
+.ads{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0;
+    color: #6c757d;
+}
+
+
+.ads li{
+    margin-right: 5px;
+    align-items: center;
+}
+    
+
+.name{
+    display: flex;
+    align-items: first baseline;
+    text-wrap: nowrap;
+    margin-right: 50px;
+    font-weight: 600;
 }
